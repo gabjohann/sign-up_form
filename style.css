@@ -34,14 +34,15 @@ main
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: var(--light-gray);
 }
 
 main h1
 {
-  color: var(--light-blue);
+  color: var(--white);
   font-family: var(--font-primary);
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 2rem;
 }
 
@@ -160,14 +161,17 @@ main .btn-sign-up:hover
   color: #161923;
 }
 
-section.images
+.images
 {
   display: flex;
   align-items: flex-end;
+  background: rgba(173, 216, 230, 0.192);
+  margin: 1.5rem 2rem 1.5rem 0;
+  border-radius: 0.5rem;
 }
 
-section.images img
+.images img
 {
-  width: 50%;
-  margin: 5rem;
+  width: 40rem;
+  margin: 80px 28px 65px 28px;
 }
