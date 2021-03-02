@@ -44,8 +44,8 @@ A aplicação foi desenvolvida utilizando:
 
 ### Ferramentas
 
-• Editor de código -> [VSCode](https://code.visualstudio.com/)
-• Fontes -> [Merriweather](https://fonts.google.com/specimen/Merriweather?preview.text_type=custom) & [Josefin Slab](https://fonts.google.com/specimen/Josefin+Slab?preview.text_type=custom)
+• Editor de código -> [VSCode](https://code.visualstudio.com/) <br />
+• Fontes -> [Merriweather](https://fonts.google.com/specimen/Merriweather?preview.text_type=custom) & [Josefin Slab](https://fonts.google.com/specimen/Josefin+Slab?preview.text_type=custom) <br />
 • Prototipagem -> [Figma](https://www.figma.com/)
 
 
