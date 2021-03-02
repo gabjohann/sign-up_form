@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root
+{
+  --font-primary: "Merriweather", serif;
+  --font-secondary: "Josefin Slab", serif;
+  
+  --blue: #007dfe;
+  --light-blue: #7ab2ff;
+  --light-gray: #1B2029;
+  --gray: #161923;
+  --white: #DCDDE0;
+}
+
+body
+{
+  background: var(--light-gray);
+  color: var(--white);
+  font-weight: 500;
+
+  display: flex;
+  min-height: 100vh;
+}
+
+main
+{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main h1
+{
+  color: var(--light-blue);
+  font-family: var(--font-primary);
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+main.social-media
+{
+  display: flex;
+  align-content: center;
+}
+
+main .social-media a
+{
+  text-decoration: none;
+}
+
+main .social-media img
+{
+  width: 30px;
+  margin: 0 0 0.5rem 3rem;
+}
+
+main .social-media a:first-child img
+{
+ margin-left: 0;
+}
+
+main .alternative
+{
+  margin-top: 1rem;
+}
+
+main .alternative span
+{
+  font-size: 1rem;
+  font-family: var(--font-secondary);
+  color: rgba(255, 255, 255, 0.3);
+  position: relative;
+}
+
+main .alternative span::before,
+main .alternative span::after
+{
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 100px;
+  bottom: 50%;
+  right: 50px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+main .alternative span::after
+{
+  left: 50px;
+}
+
+main form
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main form label
+{
+  display: flex;
+  flex-direction: column;
+}
+
+main form span
+{
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  font-family: var(--font-secondary);
+}
+
+main form input
+{
+  width: 300px;
+  height: 36px;
+  padding: 0 0.5rem;
+  margin-top: 0.5rem;
+  
+  outline: none;
+  background: var(--gray);
+  
+  color: var(--white);
+  font-size: 0.8rem;
+
+  border-radius: 0.25rem;
+  border: 1px solid #dcdde059;
+}
+
+main .btn-sign-up
+{
+  cursor: pointer;
+
+  width: 100px;
+  height: 30px;
+  margin-top: 1.6rem;
+  
+  border-radius: 0.8rem;
+  border: 1px solid #dcdde059;
+  background: var(--gray);
+
+  color: var(--white);
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 300;
+
+  transition: all 0.3s;
+}
+
+main .btn-sign-up:hover
+{
+  background: #e2e9fd;
+  color: #161923;
+}
+
+section.images
+{
+  display: flex;
+  align-items: flex-end;
+}
+
+section.images img
+{
+  width: 50%;
+  margin: 5rem;
+}
